@@ -47,9 +47,10 @@ docker compose down
 
 **Installation:**
 
-1. **Clone the repository** (or navigate to the project directory)
+1. **Clone the repository**
    ```bash
-   cd ONIQ
+   git clone https://github.com/Uyadav207/Dashboard-OEE.git
+   cd Dashboard-OEE
    ```
 
 2. **Install dependencies**
@@ -244,10 +245,6 @@ import { Button } from '@/components/ui/button'
 ### TypeScript
 
 All components and utilities are fully typed. Type definitions are in `src/types/production.ts`.
-
-## License
-
-This project is private and proprietary.
 
 
 Analyzing the production data to identify the three biggest problems and provide recommendations.
